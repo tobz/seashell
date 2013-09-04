@@ -7,7 +7,7 @@ A library for making your Ruby scripts/programs look like run-of-the-mill init s
 action shot
 ========
 
-![Action shot of Seashell](http://i.imgur.com/Yh7DxgY.png)
+![Action shot of Seashell](http://i.imgur.com/MhAPmE4.png)
 
 
 features

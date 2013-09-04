@@ -42,6 +42,8 @@ $console.action "Acheiving world peace..."
 $console.done
 
 # Now let's throw in some levels.
+$console.msg "Turning on debug mode now..."
+
 $console.debug = true
 
 $console.msg "Just another regular old message.  (1st level)"

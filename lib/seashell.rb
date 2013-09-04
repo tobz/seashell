@@ -2,6 +2,7 @@ class Seashell
     attr_writer :debug
 
     def initialize
+        @debug = false
         @indent = 0
     end
 
@@ -42,7 +43,7 @@ class Seashell
     end
 
     def debug(s)
-        puts _level("debug", _indent + s)
+        puts _level("debug", _indent + s) unless !@debug
     end
 
     def tick
